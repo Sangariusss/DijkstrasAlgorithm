@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijkstra's Algorithm</title>
+    <link rel="stylesheet" href="src/styles/styles.css">
+</head>
+<body>
+    <h1>Dijkstra's Algorithm</h1>
+    <div id="input-container">
+        <label for="graph-input">Enter Graph Data:</label>
+        <textarea id="graph-input" rows="6" cols="50" placeholder="Enter graph data..."></textarea>
+        <button onclick="runDijkstra()">Run Dijkstra's Algorithm</button>
+    </div>
+    <div id="output-container">
+        <h2>Shortest Paths:</h2>
+        <div id="shortest-paths"></div>
+    </div>
+    <script src="src/scripts/script.js"></script>
+</body>
+</html>
