@@ -109,12 +109,12 @@ var options = {
 
 var graphData = {
     nodes: [
-        {id: 1, label: '1', fixed: true},
-        {id: 2, label: '2', fixed: true},
-        {id: 3, label: '3', fixed: true},
-        {id: 4, label: '4', fixed: true},
-        {id: 5, label: '5', fixed: true},
-        {id: 6, label: '6', fixed: true}
+        {id: 1, label: 'Graph 1', fixed: true, x: 0, y: 0},
+        {id: 2, label: 'Graph 2', fixed: true, x: 300, y: 0},
+        {id: 3, label: 'Graph 3', fixed: true, x: 150, y: 150},
+        {id: 4, label: 'Graph 4', fixed: true, x: 400, y: 150},
+        {id: 5, label: 'Graph 5', fixed: true, x: 0, y: 300},
+        {id: 6, label: 'Graph 6', fixed: true, x: 300, y: 300}
     ],
     edges: [
         {from: 1, to: 2},
@@ -132,12 +132,12 @@ var network = new vis.Network(container, graphData, options);
 
 var graphDataReset = {
     nodes: [
-        {id: 1, label: '1', fixed: true},
-        {id: 2, label: '2', fixed: true},
-        {id: 3, label: '3', fixed: true},
-        {id: 4, label: '4', fixed: true},
-        {id: 5, label: '5', fixed: true},
-        {id: 6, label: '6', fixed: true}
+        {id: 1, label: 'Graph 1', fixed: true, x: 0, y: 0},
+        {id: 2, label: 'Graph 2', fixed: true, x: 300, y: 0},
+        {id: 3, label: 'Graph 3', fixed: true, x: 150, y: 150},
+        {id: 4, label: 'Graph 4', fixed: true, x: 400, y: 150},
+        {id: 5, label: 'Graph 5', fixed: true, x: 0, y: 300},
+        {id: 6, label: 'Graph 6', fixed: true, x: 300, y: 300}
     ],
     edges: [
         {from: 1, to: 2},
