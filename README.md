@@ -32,4 +32,4 @@ The vis.js library is utilized to visualize the graphs and the shortest paths co
 Contributions, feedback, and suggestions for improvements are welcome. Please feel free to submit pull requests or raise issues if you encounter any problems or have ideas for enhancements.
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
